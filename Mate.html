@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Pagina Web para GitHub</title>
+	<link rel="stylesheet" type="text/css" href="css/dise.css">
+	<script src="js/canvas.js"></script>
+	<link rel="stylesheet" type="text/css" href="Pagina_Web">
+</head>
+<body>
+	<h1>Aprende sobre Matemáticas</h1>
+	<label> x1: </label>
+	<input type="number" name="0" id="x1" autofocus="">
+
+	<label> y1: </label>
+	<input type="number" name="0" id="y1">
+
+	<label> x2: </label>
+	<input type="number" name="0" id="x2">
+
+	<label> y2: </label>
+	<input type="number" name="0" id="y2">
+
+	<button onclick="line(x1.value, y1.value, x2.value, y2.value)"> Dibujar Linea</button>
+
+	<canvas id="canvas1" width="400px" height="400px"></canvas>
+</body>
+</html>

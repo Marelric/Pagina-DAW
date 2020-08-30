@@ -1,0 +1,32 @@
+body{
+ 	background-image: url("../img/ima.png");
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ }
+h1{
+	border: 1px solid;
+	background-image: url("../img/p.png");
+	text-shadow: 2px 2px 3px black;
+	color: yellow;
+	width: 40%;
+	font-size: 45px;
+	text-align: center;
+	margin-left: 30%;
+}
+#canvas1{
+	background-color: white;
+	display: block;
+	margin-top: 25px;
+	margin-left: 35%;
+	border: 2px solid orange;
+}
+
+label{
+	border: 1px solid;
+	font-size: 20px;
+	background-image: url("../img/p.png");
+	text-align: center;
+	text-shadow: 2px 2px 3px black;
+	color: yellow;
+	margin-left: 70px;
+}
